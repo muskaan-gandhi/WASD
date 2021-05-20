@@ -1,0 +1,31 @@
+.Footer {
+  padding-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color: white;
+  text-align: center;
+  font-size: 2vw;
+  font-family: nunito sans;
+  font-weight: 600;
+  color: black;
+  overflow-y: none;
+}
+
+.link {
+  color: black;
+}
+.social_media {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 35% 0px 35%;
+}
+
+.media-logo {
+  width: 100%;
+  padding: 10% 20% 0px 20%;
+}
+
+.black-logo {
+  width: 17%;
+}

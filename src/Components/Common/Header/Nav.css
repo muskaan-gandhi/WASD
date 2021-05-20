@@ -1,0 +1,100 @@
+.logo {
+  height: 8vw;
+  width: 13%;
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+
+.pointer {
+  top: 0px;
+  cursor: pointer;
+  width: 36px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.bar1 {
+  font-size: 60px;
+  color: white;
+  right: 25px;
+  top: -40px;
+  float: right;
+  position: absolute;
+}
+
+.bar2 {
+  font-size: 60px;
+  color: white;
+  right: 25px;
+  top: -30px;
+  float: right;
+  position: absolute;
+}
+
+.bar3 {
+  font-size: 60px;
+  color: white;
+  right: 25px;
+  top: -20px;
+  float: right;
+  position: absolute;
+}
+
+.Navbuttons {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  /* opacity: 100%; */
+  font-family: Nunito Sans;
+}
+
+.Navbuttons:hover {
+  color: inherit;
+  font-family: Nunito Sans;
+}
+
+.Navbuttons.active {
+  color: red;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: Nunito Sans;
+}
+
+.navbox {
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  height: 100%;
+  right: 0px;
+  float: left;
+  top: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.close {
+  position: absolute;
+  transform: rotate(45deg);
+  color: white;
+  font-size: 70px;
+  right: 20px;
+  cursor: pointer;
+  top: -2px;
+}
+
+.close:hover {
+  color: red;
+}
+.menu {
+  list-style-type: none;
+  padding-top: 20px;
+  background-color: black;
+  height: 100%;
+  width: 300px;
+  float: right;
+}

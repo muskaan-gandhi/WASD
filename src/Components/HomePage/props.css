@@ -1,0 +1,122 @@
+.text {
+  color: white;
+  position: relative;
+  top: 73%;
+  left: 20%;
+  width: 54%;
+  font-family: Nunito Sans;
+  font-size: 1.7vw;
+  text-align: center;
+  transition: 1s;
+}
+
+.image {
+  width: 25vw;
+  height: 60vw;
+  transition: 0.4s;
+  /* padding: 1%; */
+}
+
+.image:hover {
+  width: 27vw;
+  height: 62vw;
+  margin: auto;
+}
+
+.image-card:hover .image {
+  width: 27vw;
+  height: 62vw;
+  margin: auto;
+}
+
+.Images {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 8% 0px 11%;
+  margin-top: -50px;
+  position: static;
+}
+
+.hoverText {
+  position: relative;
+  bottom: 30%;
+  text-align: center;
+  font-family: Nunito Sans;
+  color: white;
+  font-size: 1.6vw;
+  opacity: 0%;
+  transition: 1s;
+}
+
+.image-card:hover .hoverText {
+  opacity: 100%;
+  bottom: 50%;
+}
+
+.Images:hover .text {
+  position: relative;
+  top: 25%;
+  height: 1.5vw;
+}
+
+/* sideImages */
+
+.flex {
+  float: left;
+  display: flex;
+  padding: 20px 10% 0 10%;
+  flex-direction: row;
+}
+
+.flex div {
+  flex: 1;
+}
+.imagesize {
+  position: relative;
+  height: 22vw;
+  width: 100%;
+}
+.rectangle {
+  padding: 1%;
+}
+
+.card-text {
+  font-family: Nunito Sans;
+  font-weight: 600;
+  position: relative;
+  bottom: 20%;
+  left: 10px;
+  color: white;
+  font-size: 1.6vw;
+  transition: 0.8s;
+  float: left;
+  padding-right: 15%;
+}
+
+.sub-card-text {
+  font-family: Nunito Sans;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+  color: white;
+  font-size: 0vw;
+  bottom: 20%;
+  transition: 0.5s;
+  float: left;
+  padding-right: 12%;
+}
+
+.rectangle:hover .card-text {
+  bottom: 56%;
+}
+
+.sub-card-text:hover {
+  display: block;
+  bottom: 70%;
+  font-size: 1.7vw;
+}
+
+.rectangle:hover .sub-card-text {
+  bottom: 30%;
+  font-size: 1.5vw;
+}

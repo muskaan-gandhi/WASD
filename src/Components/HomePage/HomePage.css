@@ -1,0 +1,185 @@
+/* top */
+
+.myVideo {
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 40px;
+  top: 39%;
+  font-family: Nunito Sans;
+}
+
+.connect {
+  border: white 1px solid;
+  width: max-content;
+  padding: 10px;
+  font-size: 2.5vw;
+  color: white;
+  text-decoration: none;
+}
+
+.connect:hover {
+  color: whitesmoke;
+  /* opacity: 70%; */
+}
+
+.l1 {
+  font-size: 2.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 4vw;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    top: 10%;
+    padding: 10px;
+  }
+}
+
+/* mid */
+
+.for-back {
+  position: relative;
+  padding-left: 35%;
+  padding-bottom: 60px;
+  background-image: url("Frame 1.png");
+  height: 60vw;
+  width: 100%;
+  color: white;
+  font-size: 3.5vw;
+  display: flex;
+  align-items: flex-end;
+  border: -webkit-radial-gradient(white, black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -70px;
+}
+
+.p1 {
+  text-align: center;
+  padding: 20px 20% 20px 20%;
+  font-size: 1.7vw;
+  color: white;
+}
+
+.p2 {
+  border: 1px solid white;
+  width: max-content;
+  font-size: 1.8vw;
+  color: white;
+  padding: 12px 65px 12px 65px;
+  align-self: center;
+  margin: 1px auto 20px auto;
+  text-decoration: black underline;
+  transition: 0.1s;
+}
+
+.p2:hover {
+  padding: 14px 70px 14px 70px;
+  opacity: 70%;
+}
+
+.ocean {
+  font-family: nunito Sans;
+  font-size: 1.8vw;
+  color: white;
+  text-align: center;
+  padding: 0 13% 3% 13%;
+}
+
+.oceanh {
+  font-size: 175%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.each_icon {
+  width: 18vw;
+  padding: 10px 10% 6% 10%;
+}
+
+.icons {
+  padding-left: 12%;
+  display: flex;
+  position: sticky;
+}
+
+.icons div {
+  flex: 1;
+}
+
+.icon_text {
+  color: white;
+  font-size: 1.8vw;
+  text-align: center;
+  font-family: Nunito Sans;
+  width: min-content;
+  padding: 33px 0 33px 10%;
+}
+.Frame3 {
+  width: 100vw;
+}
+
+.coming_soon {
+  color: white;
+  font-size: 3.4vw;
+  position: relative;
+  text-align: right;
+  padding-right: 17vw;
+  bottom: 75vh;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .coming_soon {
+    position: relative;
+    bottom: 30vw;
+  }
+  .sign-up {
+    position: relative;
+    top: 29vw;
+    margin: 10px 13% 20vw 13%;
+    font-size: 2vw;
+  }
+  .form {
+    margin-top: 34vw;
+  }
+  .p2 {
+    margin-bottom: 60px;
+  }
+}
+
+.sign-up {
+  font-family: Nunito Sans;
+  color: white;
+  text-align: center;
+  font-size: 1.6vw;
+  margin: -200px 13% 0px 13%;
+}
+
+.sign-uph {
+  font-size: 2.8vw;
+  font-weight: 600;
+}
+
+/* form */
+.elements {
+  background-color: black;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 50vw;
+  font-size: 2vw;
+}
