@@ -1,16 +1,16 @@
 import React from "react";
 import "./HomePage.css"
 import {NavLink} from "react-router-dom";
-import Image1 from "./Pictures/image1.jpg";
-import Image2 from "./Pictures/image2.jpg";
-import Image3 from "./Pictures/image3.jpg";
-import Icon1 from "./Pictures/icon1.jpg";
-import Icon2 from "./Pictures/icon2.jpg";
-import Icon3 from "./Pictures/icon3.jpg";
+import Image1 from "./Pictures/image1.png";
+import Image2 from "./Pictures/image2.png";
+import Image3 from "./Pictures/image3.png";
+import Icon1 from "./Pictures/icon1.png";
+import Icon2 from "./Pictures/icon2.png";
+import Icon3 from "./Pictures/icon3.png";
 import Frame3 from "./Pictures/Frame3.png";
 import SideImage1 from "./Pictures/SideImage1.jpg"
 import SideImage2 from "./Pictures/SideImage2.jpg"
-import SideImage3 from "./Pictures/SIdeImage3.jpg"
+import SideImage3 from "./Pictures/SideImage3.jpg"
 import Props from "./SideImageProps";
 import Image from "./props";
 import "./props.css";
