@@ -3,6 +3,7 @@ import Form from "./Form";
 import Top from "./Top";
 import Mid from "./mid";
 import "./HomePage.css";
+import RandomCommon from "../Common/RandomCommon"
 import Footer from "../Common/Footer/Footer"
 
 function HomePage() {
@@ -10,6 +11,7 @@ function HomePage() {
         <>
         <Top></Top>
         <Mid></Mid>
+        <RandomCommon></RandomCommon>
         <Form></Form>
         <Footer></Footer>
         </>

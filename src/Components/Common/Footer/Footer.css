@@ -24,6 +24,13 @@
 .media-logo {
   width: 100%;
   padding: 10% 20% 0px 20%;
+  cursor: pointer;
+  transition: 0.4s;
+  position: sticky;
+}
+
+.media-logo:hover {
+  width: 102%;
 }
 
 .black-logo {

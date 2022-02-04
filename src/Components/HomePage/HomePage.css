@@ -25,17 +25,26 @@
 
 .connect:hover {
   color: whitesmoke;
-  /* opacity: 70%; */
+  background-color: black;
+  opacity: 0.9;
 }
 
 .l1 {
   font-size: 2.5vw;
   margin-top: 20px;
   margin-bottom: 20px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  font-weight: bolder;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .header {
   font-size: 4vw;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  font-weight: bolder;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (max-width: 600px) {
@@ -48,21 +57,31 @@
 /* mid */
 
 .for-back {
-  position: relative;
-  padding-left: 35%;
-  padding-bottom: 60px;
-  background-image: url("Frame 1.png");
-  height: 60vw;
-  width: 100%;
   color: white;
-  font-size: 3.5vw;
-  display: flex;
-  align-items: flex-end;
-  border: -webkit-radial-gradient(white, black);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: -70px;
+  font-size: 4vw;
+  margin-top: -150px;
+  text-align: center;
+  font-family: Nunito sans;
+  opacity: 0;
+  transition: 2s;
+  position: relative;
+  bottom: 0px;
+}
+
+.for-back:hover {
+  opacity: 1;
+  position: relative;
+  bottom: 500px;
+}
+
+.definition:hover .for-back {
+  opacity: 1;
+  position: relative;
+  bottom: 500px;
+}
+
+.back-ground {
+  width: 100vw;
 }
 
 .p1 {
@@ -70,6 +89,7 @@
   padding: 20px 20% 20px 20%;
   font-size: 1.7vw;
   color: white;
+  font-family: Nunito Sans;
 }
 
 .p2 {
@@ -86,7 +106,7 @@
 
 .p2:hover {
   padding: 14px 70px 14px 70px;
-  opacity: 70%;
+  opacity: 0.9;
 }
 
 .ocean {
@@ -182,4 +202,8 @@
   padding: 20px;
   width: 50vw;
   font-size: 2vw;
+}
+
+.form {
+  margin-bottom: 40px;
 }

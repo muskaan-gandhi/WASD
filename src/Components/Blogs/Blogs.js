@@ -3,7 +3,7 @@ import React from "react";
 function Blogs() {
     return(
         <>
-        <h1>Blogs</h1>
+        <h1 style={{color:"white", height:"100vw", textAlign:"center"}}>Blogs</h1>
         </>
     )
 }
